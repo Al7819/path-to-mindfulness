@@ -31,11 +31,31 @@ header {
 
 h1 {
     font-family: 'figtree', sans-serif;
+    letter-spacing: 3px;
+}
+
+header a {
+    text-decoration: none;
+    color: #cf91f4;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;    
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff; 
 }
 
 /* Main Content */
 main {
-    background-color: purple;
+    background-color: rgb(182, 107, 223);
     flex: 1 0 auto;
 }
 
