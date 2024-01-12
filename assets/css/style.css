@@ -1,0 +1,23 @@
+/* Asterix wilcard selector to override browser default styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/* Header */
+header {
+    background-color: palegreen;
+}
+
+/* Main Content */
+main {
+    background-color: purple;
+}
+
+/* Footer */
+footer {
+    background-color: lightpink;
+}
+
