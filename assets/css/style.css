@@ -24,6 +24,10 @@ header {
     background-color: palegreen;
 }
 
+h1 {
+    font-family: 'figtree', sans-serif;
+}
+
 /* Main Content */
 main {
     background-color: purple;
