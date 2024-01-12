@@ -6,6 +6,15 @@
     box-sizing: border-box; 
 }
 
+/* General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic styles */
+    color: #ffffff
+}
+
 /* Header */
 header {
     background-color: palegreen;
@@ -14,6 +23,7 @@ header {
 /* Main Content */
 main {
     background-color: purple;
+    flex: 1 0 auto;
 }
 
 /* Footer */
