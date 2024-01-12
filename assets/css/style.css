@@ -1,3 +1,6 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Figtree:wght@300&display=swap');
+
 /* Asterix wilcard selector to override browser default styles*/
 
 * {
@@ -12,7 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
-    color: #ffffff
+    color: #ffffff;
+    font-family: 'comfortaa', sans-serif;
 }
 
 /* Header */
