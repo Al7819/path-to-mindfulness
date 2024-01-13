@@ -43,7 +43,7 @@ header a {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 3px;    
     list-style-type: none;
 }
@@ -86,7 +86,7 @@ nav {
 main {
     background-color: rgb(182, 107, 223);
     flex: 1 0 auto;
-    margin-top: 81px;
+    margin-top: 82px;
 }
 
 /* Footer */
@@ -94,3 +94,26 @@ footer {
     background-color: lightpink;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
