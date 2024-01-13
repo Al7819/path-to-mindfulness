@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: palegreen;
     padding: 0 2rem;
     position: fixed;
     z-index: 99;
@@ -39,7 +39,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    color: #cf91f4;
+    color: #ffffff;
 }
 
 #menu {
@@ -60,7 +60,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: palegreen;
     width: 100%;
     left: 0;
     padding: 0 2em;
@@ -74,12 +74,19 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main Content */
 main {
     background-color: rgb(182, 107, 223);
     flex: 1 0 auto;
+    margin-top: 81px;
 }
 
 /* Footer */
