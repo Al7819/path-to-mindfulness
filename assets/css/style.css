@@ -34,7 +34,7 @@ header {
 
 h1 {
     font-family: 'figtree', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 header a {
@@ -86,8 +86,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
-    margin-bottom: 20px;
-}
+    }
 
 /* Hero Section */
 #hero {
@@ -134,7 +133,7 @@ main {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.2rem;
     }
@@ -143,6 +142,7 @@ main {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 76px;
+        
     }
     
 }
