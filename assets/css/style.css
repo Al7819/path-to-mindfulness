@@ -90,8 +90,17 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: lightpink;
+#social-networks {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color: black;
 }
 
 /* Media query: tablets and larger (768px and up) */
