@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
-    color: #ffffff;
+    color: #5d1c80;
     font-family: 'comfortaa', sans-serif;
 }
 
@@ -86,6 +86,8 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
     }
 
 /* Hero Section */
@@ -93,7 +95,20 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/main-image.webp") no-repeat center center/cover;
+    position: relative;
 }
+
+#cover-text {
+    font-size: 120%;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#cover-text > h4 {
+    padding-top: 20px;
+}
+
 
 /* Footer */
 #social-networks {
@@ -141,8 +156,11 @@ main {
     /* Main Content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 76px;
-        
+        margin-top: 76px;                
+    }
+
+    #hero {
+        height: 1000px;
     }
     
 }
