@@ -84,9 +84,16 @@ nav {
 
 /* Main Content */
 main {
-    background-color: rgb(182, 107, 223);
     flex: 1 0 auto;
-    margin-top: 82px;
+    margin-top: 47px;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: blue;
 }
 
 /* Footer */
@@ -135,8 +142,7 @@ main {
     /* Main Content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 160px;
+        margin-top: 76px;
     }
     
-
 }
