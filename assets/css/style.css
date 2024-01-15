@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: palegreen;
+    background-color: #5d1c80;
     padding: 0 2rem;
     position: fixed;
     z-index: 99;
@@ -53,14 +53,14 @@ header a {
 }
 
 .active {
-    border-bottom: 3px solid rgb(182, 107, 223); 
+    border-bottom: 3px solid rgb(255, 255, 255); 
 }
 
 /* Navbar styles with dropdown toggle */
 
 nav {
     position: absolute;
-    background-color: palegreen;
+    background-color: #5d1c80;
     width: 100%;
     left: 0;
     padding: 0 2em;
@@ -148,13 +148,13 @@ main {
   #meditation {
     line-height: 25px;
     margin-bottom: 20px;
-    padding-left: 10px; 
+    padding: 20px 10px; 
   }
 
   #breathing {
     line-height: 25px;
     margin-bottom: 20px;
-    padding-left: 10px;
+    padding: 20px 10px;
   }
 
  #stones {
