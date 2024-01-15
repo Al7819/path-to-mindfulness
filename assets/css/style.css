@@ -71,7 +71,7 @@ nav {
 
 /* Nav toggle*/
 #nav-toggle:checked~nav {
-    display: block;
+    display: block;    
 }
 
 #nav-toggle {
@@ -80,6 +80,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #ffffff;
 }
 
 /* Main Content */

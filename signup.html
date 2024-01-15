@@ -37,7 +37,33 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitue.com">
+            <h2><i class="fa-solid fa-yin-yang"></i>Sign up to our newsletter</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="fortnight">Recieve a newsletter every fortnight</label>
+                    <input type="radio" name="fortnight_month" id="fortnight" value="fortnight" required checked>
+                </div>
+                <div>
+                    <label for="monthly">Recieve a newsletter every month</label>
+                    <input type="radio" name="fortnight_month" id="month" value="month" required checked>
+                </div>
+            </div>
+
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
