@@ -173,7 +173,41 @@ main {
     justify-content: center;    
  }
 
+ /* Form - signup */
+
+ #signup {
+    background: url("../images/sand-image.webp");
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    padding: 10px 10px;
+ }
  
+ #signup-form {
+    margin-top: 47px;
+    
+ }
+
+ #signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ .text-input {
+    background: rgba(246, 212, 161, 0.2);
+    height: 30px;
+    margin: 10px 0 20px 0;
+    width: 100%;    
+ }
+
+ .radio-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+ }
+ 
+ 
+  
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
