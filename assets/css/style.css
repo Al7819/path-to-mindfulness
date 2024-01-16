@@ -181,11 +181,17 @@ main {
     background-position: center;
     flex-grow: 1;
     padding: 10px 10px;
- }
+    font-weight: 700;
+}
+
+#signup-form h3 {
+    color:rgb(0, 0, 0)
+}
+
  
  #signup-form {
     margin-top: 47px;
-    
+        
  }
 
  #signup-form h2 {
@@ -203,8 +209,18 @@ main {
  .radio-buttons {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-evenly;
  }
+
+ .signup-button {
+    margin-top: 25px;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 120%;
+    background-color: rgba(140, 58, 185, 0.8);
+    color:#ffffff; 
+ } 
+ 
  
  
   
