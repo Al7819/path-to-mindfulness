@@ -1,14 +1,11 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Figtree:wght@300&display=swap');
-
 /* Asterix wilcard selector to override browser default styles*/
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
 }
-
 /* General Styles*/
 body {
     min-height: 100vh;
@@ -18,8 +15,8 @@ body {
     color: #5d1c80;
     font-family: 'comfortaa', sans-serif;
 }
-
 /* Header */
+
 header {
     background-color: #5d1c80;
     padding: 0 2rem;
@@ -31,31 +28,25 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
-
 h1 {
     font-family: 'figtree', sans-serif;
     letter-spacing: 2px;
 }
-
 header a {
     text-decoration: none;
     color: #ffffff;
 }
-
 #menu {
     font-size: 110%;
     letter-spacing: 3px;    
     list-style-type: none;
 }
-
 #menu > li {
     margin-bottom: 1em;
 }
-
 .active {
     border-bottom: 3px solid rgb(255, 255, 255); 
 }
-
 /* Navbar styles with dropdown toggle */
 
 nav {
@@ -67,49 +58,44 @@ nav {
     box-shadow: 0px 5px 2px #f6e9f6;
     top: 100%;
     display: none;
-    }
-
+}
 /* Nav toggle*/
+
 #nav-toggle:checked~nav {
     display: block;    
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
     color: #ffffff;
 }
-
 /* Main Content */
+
 main {
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
     flex-direction: column;
-    }
-
+}
 /* Hero Section */
+
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/main-image.webp") no-repeat center center/cover;
     position: relative;
 }
-
 #cover-text {
     font-size: 120%;
     position: absolute;
     padding-top: 100px;
     padding-left: 30px;
 }
-
 #cover-text > h4 {
     padding-top: 20px;
 }
-
 #cover-text > h5 {
     background-color: rgba(132, 150, 54, 0.7);
     padding: 10px 20px;
@@ -119,60 +105,52 @@ main {
     width: 90%; 
     text-align: left;      
 }
-
-
 /* Footer */
+
 #social-networks {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social-networks i {
     font-size: 150%;
     padding: 5%;
     color: black;
 }
+/* Tips Section */
 
- /* Tips Section */
- #tips {
+#tips {
       margin-top: 45px;
-  }
-
-  #tips > h3 {
+}
+#tips > h3 {
     text-align: center;
     margin-bottom: 15px;
     font-size: 120%;
-  }
-
-  #meditation {
+}
+#meditation {
     line-height: 25px;
     margin-bottom: 20px;
     padding: 20px 10px; 
-  }
-
-  #breathing {
+}
+#breathing {
     line-height: 25px;
     margin-bottom: 20px;
     padding: 20px 10px;
- }
-
- #stones {
+}
+#stones {
     background: url(../images/stones-stacked.webp) no-repeat center / cover;
     height: 90vw;
     width: 90vw;    
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;    
- }
-
+}
   #tips-image {
       display: flex;
       align-items: center;
       justify-content: center;
-  }
-
+}
  /* Form - signup */
 
  #signup {
@@ -184,36 +162,29 @@ main {
     font-weight: 700;
     text-align: center;
 }
-
 #signup-form h3 {
     color:rgb(0, 0, 0)
-}
-
- 
+} 
  #signup-form {
     margin-top: 47px;
         
  }
-
  #signup-form h2 {
     text-align: center;
     margin-bottom: 30px;
  }
-
- .text-input {
+  .text-input {
     background: rgba(246, 212, 161, 0.2);
     height: 30px;
     margin: 10px 0 20px 0;
     width: 100%;    
  }
-
  .radio-buttons {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     color: #ffffff;
  }
-
  .signup-button {
     margin-top: 25px;
     border-radius: 4px;
@@ -221,10 +192,9 @@ main {
     font-size: 120%;
     background-color: rgba(140, 58, 185, 0.8);
     color:#ffffff; 
- } 
-  
-
+ }
 /* Media query: tablets and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -234,19 +204,15 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
-
     #menu {
         display: flex;
     }
-
     #menu > li {
         padding-left: 1rem;
     }
-
     .nav-toggle-label {
         display: none;
     }
-
     #logo {
         font-size: 200%;
         line-height: 75px;
@@ -258,11 +224,9 @@ main {
         /* Push main content down to accomodate larger header */
         margin-top: 76px;                
     }
-
     #hero {
         height: 850px;
     }
-
     #cover-text>h5 {
         background-color: rgba(132, 150, 54, 0.5);
         font-size: 160%;
@@ -270,18 +234,15 @@ main {
         width: 80%;
         text-align: justify;
         font-weight: bold;
-    }
-    
+    }    
    /* Form Signup*/
 
     #signup-form {
         height: 800px
     }
-
     .text-input {
         width: 50%;        
-    }
-    
+    }    
     .radio-buttons {
         display: grid;
         justify-content: start;
@@ -296,12 +257,10 @@ main {
         #menu a:hover {
             border: 2px solid #ffffff;
         }
-
         #social-networks a:hover {
             border-bottom: 2px solid #5d1c80;
             border-radius: 5px;
         }
-
         /* Tips */
 
         #meditation,
@@ -310,11 +269,9 @@ main {
             margin-bottom: 20px;
             padding: 20px 170px;
         }
-
         #images {
             max-width: 1200px;            
         }
-
         #second-image {
             background: url(../images/med-image.webp) no-repeat center / cover;
             height: 90vw;
@@ -330,7 +287,6 @@ main {
             width: 45%;
             padding-left: 190px
         }
-
         #tips-image {
             display: inline-block;
             margin-left: auto;
@@ -338,13 +294,11 @@ main {
             width: 45%;
             padding-left: 160px;
         }
-
         /* Form Signup */
 
         .radio-buttons {            
             font-size: 140%;
         }
-
         .text-input {
             width: 35%;
         }
