@@ -58,7 +58,7 @@
     <!-- Main Content --> 
     <main>
       <section id="signup">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net" aria-label="Sign up form for newsletter" target="_blank">
           <h2><i class="fa-solid fa-yin-yang"></i>Sign up to our newsletter</h2>
           <label for="first_name"><h3>First Name</h3></label>
           <input type="text" name="first_name" id="first_name" class="text-input" required/>
@@ -84,13 +84,8 @@
           <div class="radio-buttons">
             <div>
               <label for="fortnight">Recieve a newsletter fortnightly</label>
-              <input
-                type="radio"
-                name="fortnight_month"
-                id="fortnight"
-                value="fortnight"
-                required
-                checked
+              <input type="radio" name="fortnight_month" id="fortnight" value="fortnight" 
+              required checked 
               />
             </div>
             <div>

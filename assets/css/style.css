@@ -257,9 +257,11 @@ main {
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border: 2px solid #ffffff;
+            border-radius: 5px;
+            padding: 0.5em 0.5em;            
         }
         #social-networks a:hover {
-            border-bottom: 2px solid #5d1c80;
+            border-bottom: 2px solid #5d1c80;            
             border-radius: 5px;
         }
         /* Tips */
