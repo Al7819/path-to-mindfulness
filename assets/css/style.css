@@ -234,8 +234,16 @@ main {
         width: 80%;
         text-align: justify;
         font-weight: bold;
-    }    
-   /* Form Signup*/
+    }   
+    /* Tips Section */ 
+    #tips {
+        padding: 0 30px;
+    }
+    #breathing-tips {
+        margin-bottom: 30px;
+    }
+    }
+    /* Form Signup*/
 
     #signup-form {
         height: 800px
