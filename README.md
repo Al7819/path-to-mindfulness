@@ -17,9 +17,8 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    3. [Tips Page](#tips-page)
+    4. [Signup Page](#signup-page)    
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -74,12 +73,64 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
   
    * **Header**
   
-    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
+      - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
     
-    - The navigation bar is the same on all pages and contains links to all pages to facilitate navigation across the website. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+      - The navigation bar is the same on all pages and contains links to all pages to facilitate navigation across the website. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
     
     * **Footer**
 
-    - The footer has links to all the social media accounts.
+      - The footer has links to all the social media accounts.
 
-    ###
+    ### Landing Page
+
+    * **Main Image**
+
+      - The main image is there to attract the user attention. Represents a path going into the horizon to tie inwith the website name.
+
+    * **Text Section**
+
+      - Contains introduction to the website and a quote on mindfulnesss to tie inwith the website name.
+     
+    ### Tips Page
+
+      - Contains the tips on meditation, breathing and two pictures.
+
+    ### Signup Page
+
+      - Contains a form to sign up to a newsletter for more tips with a tranquil background picture.
+
+
+    ## Technologies Used
+
+    ### Languages Used
+    * [HTML5](https://en.wikipedia.org/wiki/html5)
+    * [CSS3](https://en.wikipedia.org/wiki/css)
+
+    ### Frameworks, Libraries and Programs Used
+
+    * [Google Fonts](https://fonts.google.com/)
+       - Google Fonts was used to import the fonts Figtree and Comfortaa into the style.css file. These fonts were used throughout the site.
+
+    * [Font Awesome](https://fontawesome.com/)
+        - Font Awesome was used throughout all pages to add icons to create a better User Experience (UX)
+
+    * [Pic Wish](https://picwish.com/)    
+        - Pic Wish was used to enhance the main image and signup images.
+  
+    * [Free Convert](https://freeconvert.com/)
+        - Free convert was used to convert the JPG imagesw to WEBP.
+
+    * [GitHub](https://github.com/)
+        - GitHub was used to store the project after pushing.
+
+    * [Codeanywhere](https://codeanywhere.com/)
+        - Codeanywhere was used to write the code.
+    
+    * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+        - Chrome DevTools was used during development process for code review and to test responsiveness.
+    
+    * [W3C Markup Validator](https://validator.w3.org/)
+        - W3C Markup Validator was used to validate the HTML code.
+
+    * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+        - W3C CSS Validator was used to validate the CSS code.
