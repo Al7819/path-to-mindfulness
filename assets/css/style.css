@@ -154,13 +154,13 @@ main {
  /* Form - signup */
 
  #signup {
-    background: url("../images/waterstone-image.webp");
+    background: url("../images/waterstone-image-s.webp");
     background-size: cover;
     background-position: center;
     flex-grow: 1;
     padding: 10px 10px;
     font-weight: 700;
-    text-align: center;
+    text-align: center;    
 }
 #signup-form h3 {
     color:rgb(0, 0, 0)
