@@ -51,7 +51,7 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
    
    * As a website user, I want to be able to navigate the wesite comfortably with clear information displayed.
     
-   * As a website user, I iwant to able to find tips on my journey to mindfulness.
+   * As a website user, I want to able to find tips on my journey to mindfulness.
     
    * As a website user, I want to be able to recieve updates on the latest tips and quotes on mindfulness.
 
@@ -134,3 +134,29 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
 
     * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
         - W3C CSS Validator was used to validate the CSS code.
+    
+    ## Testing
+
+    ### Testing User Stories
+
+    * As a website user, I want to be able to navigate the wesite comfortably with clear information displayed.
+
+        - The website has a clear structure for the user to find the information they are looking for.
+
+        - The navigation is clearly presented for customers to find and use.
+    
+    * As a website user, I want to able to find tips on my journey to mindfulness.
+  
+        - The tips page provides information that the user may find useful.
+    
+    * As a website user, I want to be able to recieve updates on the latest tips and quotes on mindfulness.
+
+        - The signup page has a signup form for each user to select the frequency of the newsletter with the latest tips on mindfulness.
+
+    ### Code Validation
+
+    * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+  
+        - The W3C Css Validator found an error to be missing a semicolon before the height property. The semicolon was added to fix this problem.
+  
+        - The W3C Markup Validator found no issue with the code.
