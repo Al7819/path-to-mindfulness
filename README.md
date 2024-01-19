@@ -1,6 +1,6 @@
 # Path to Mindfulness
 
-![Path to mindfulness mock up images](assests/readme-files/screens.png)
+![Path to mindfulness mock up images](assets/readme-files/screens.png)
 
 Path to Mindfulness is a web page for tips on meditation and breathing.
 
@@ -57,6 +57,8 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
    * As a website user, I want to be able to recieve updates on the latest tips and quotes on mindfulness.
 
    ### Color Scheme
+
+   ![color scheme image](assets/readme-files/colors.png)
    
    * The colors used in the website are white(#ffffff), purple(#5d1c80), light pink on the box-shadow (#f6e9f6), white on the header hover effect (rgb 255, 255, 255), black on the social media icons (rgb 0, 0, 0).
 
@@ -77,13 +79,15 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
    * Similar color scheme and design on all pages to present the information to the user.
   
    * **Header**
+    ![header image](assets/readme-files/header.png)
   
       - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
     
       - The navigation bar is the same on all pages and contains links to all pages to facilitate navigation across the website. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
     
     * **Footer**
-
+    ![footer image](assets/readme-files/footer.png)
+    
       - The footer has links to all the social media accounts.
 
     ### Landing Page
