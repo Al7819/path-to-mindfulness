@@ -1,5 +1,7 @@
 # Path to Mindfulness
 
+![Path to mindfulness mock up images](assests/readme-files/screens.png)
+
 Path to Mindfulness is a web page for tips on meditation and breathing.
 
 The purpose of this website is to help people start their journey to mindfulness.
@@ -28,10 +30,9 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
     3. [Accessibility](#accessibility)
     4. [Tools Testing](#tools-testing)
     5. [Manual Testing](#manual-testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+5. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+6. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
@@ -62,6 +63,10 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
    ### Typography
    
    * There are two fonts used, Figtree for the H1 heading on the home page and Comfortaa for all other fonts with sans-serif used as a fall back incase Figtree or Comftaa is not importing correctly.
+
+    ### Wire frames
+
+    ![wireframe picture](assets/readme-files/wireframe.jpg) I used a pen and paper to set a basic design for the website.
    
    ## Features
    
@@ -197,7 +202,7 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
 
         - **Microsoft Edge**
         
-        No appearance, responsiveness nor functionality issues.
+        No appearance, responsiveness nor functionality issue.
 
 * Device compatibility
 
@@ -223,33 +228,25 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
 
         No appearance, responsiveness nor functionality issues.
 
-* Common Elements Testing
+        * Common Elements Testing
 
-        - All Pages
-        
-        - **Header**
+       -All Pages
 
-            - Clicking on the website name in the header will bring the user back to the home page.
+       - ** Header **
 
-        - **Navigation Bar**
+            - Clicking on the website name in the header will bring the user back to the home page
+  
+       - ** Navigation bar **
+  
+            - Hovering the mouse over social media icons and navigation bars links will display the hover effect.
 
-            - Hovering the mouse over social media icons and navigation bar's links will trigger the hover effect, highlighting each link for the user.
+        - ** Footer **
 
-            - Clicking on the navigation bar's links will bring the user to the selected page.
-        
-        - **Footer**
-        
-            - Clicking on the social media links will open the specific website on a new tab.    
+            - Clicking on the social media links will open the specific website in a new tab
 
     - Signup Page
 
         - When filling out the book now form, the user is required to complete all fields before submitting.
-
-    ## Finished Product
-
-    Page | Desktop version | Mobile version
-    --- | --- | ---
-    
 
     ## Deployment
 
