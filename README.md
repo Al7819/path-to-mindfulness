@@ -189,10 +189,6 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
         
         No appearance, responsiveness nor functionality issues.
 
-        - **Safari**
-        
-        No appearance, responsiveness nor functionality issues.
-
         - **Mozilla Firefox**
         
         There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
@@ -266,23 +262,18 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
     - All content was written by the developer.
 
     ### Media
+    
+    * [Google Images](https://www.google.com)
 
-
-
-
-    * [Unsplash](https://unsplash.com/)
-
-    - About Us image: "Pristine water lily" by Jay Castor.
-    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
-    - Facial image: Taken by Raphael Lovaski.
-    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
-    - Book Now image: Taken by Firos Nv.
-
+    - All Images on the site were taken from Google images.
+    
     ### Code
 
-    * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+    * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were both used to help me understand the code.
 
+    ## Acknowledgements
 
-        
-        
+    * My tutor, Marcel, for his feedback and guidance.
 
+    * My family for their opinions on the website in development process along the way.  
+      
