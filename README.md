@@ -160,3 +160,129 @@ Visit the deployed website [here](https://https://al7819.github.io/path-to-mindf
         - The W3C Css Validator found an error to be missing a semicolon before the height property. The semicolon was added to fix this problem.
   
         - The W3C Markup Validator found no issue with the code.
+
+    ### Accessibility
+
+* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+* Lighthouse reports
+
+    - **Landing Page**
+
+    ![Lighthouse report for landing page image](assets/readme-files/home-lighthouse.png)
+
+    - **Tips Page**
+
+    ![Lighthouse report for treatmenst page image](assets/readme-files/tips-lighthouse.png)
+
+    - **Signup Page**
+
+    ![Lighthouse report for book now page image](assets/readme-files/signup-lighthouse.png)
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Goolgle Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Safari**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Mozilla Firefox**
+        
+        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
+        
+        No responsiveness nor functionality issues.
+
+        - **Microsoft Edge**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+        - **Iphone SE**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Ipad Mini**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Galaxy Fold**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Laptop**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Desktop**
+
+        No appearance, responsiveness nor functionality issues.
+
+* Common Elements Testing
+
+        - All Pages
+        
+        - **Header**
+
+            - Clicking on the website name in the header will bring the user back to the home page.
+
+        - **Navigation Bar**
+
+            - Hovering the mouse over social media icons and navigation bar's links will trigger the hover effect, highlighting each link for the user.
+
+            - Clicking on the navigation bar's links will bring the user to the selected page.
+        
+        - **Footer**
+        
+            - Clicking on the social media links will open the specific website on a new tab.    
+
+    - Signup Page
+
+        - When filling out the book now form, the user is required to complete all fields before submitting.
+
+    ## Finished Product
+
+    Page | Desktop version | Mobile version
+    --- | --- | ---
+    
+
+    ## Deployment
+
+    * This website was developed using [Github](https://www.github.com/).
+
+    ## Credits 
+
+    ### Content
+
+    - All content was written by the developer.
+
+    ### Media
+
+
+
+
+    * [Unsplash](https://unsplash.com/)
+
+    - About Us image: "Pristine water lily" by Jay Castor.
+    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
+    - Facial image: Taken by Raphael Lovaski.
+    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
+    - Book Now image: Taken by Firos Nv.
+
+    ### Code
+
+    * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+
+
+        
+        
+
